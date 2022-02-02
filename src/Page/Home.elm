@@ -1,4 +1,4 @@
-module Page.Home exposing (Model, Msg, init, subscriptions, toSession, update, view)
+module Page.Home exposing (FeedTab(..), Model, Msg, Status(..), init, subscriptions, toSession, update, view)
 
 {-| The homepage. You can get here via either the / or /#/ routes.
 -}

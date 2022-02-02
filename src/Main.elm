@@ -1,4 +1,4 @@
-module Main exposing (main)
+module Main exposing (Model(..), Msg, main, view)
 
 import Api exposing (Cred)
 import Article.Slug exposing (Slug)
