@@ -1,4 +1,4 @@
-module Article.Tag exposing (Tag, list, toString)
+module Article.Tag exposing (Tag, decoder, list, toString)
 
 import Api exposing (Cred)
 import Api.Endpoint as Endpoint
